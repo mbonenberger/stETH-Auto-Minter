@@ -4,7 +4,7 @@ The `stETH-Auto-Minter` is a Node.js script designed to automatically interact w
 
 ## Features
 
-- Automatically mints stETH by sending goETH to the mint function of StEthMinter smart contract.
+- Automatically mints stETH by sending goETH to the mint function of the StEthMinter smart contract.
 - Adjusts the minting amount based on the current balance of the sending account.
 - Preserves a minimum balance in the sending account.
 - Implements a retry mechanism with exponential backoff for handling transaction failures.
