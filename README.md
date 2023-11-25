@@ -25,3 +25,4 @@ To run the `stETH-Auto-Minter`, follow these steps:
 2. Install the necessary dependencies by running `npm install`.
 3. Update the script with your Goerli account's private key and Web3 provider URL.
 4. Modify the script to adjust the amount and minting logic.
+5. Run the script: `nohup node auto-minter.mjs > logs/minter.out 2>&1 &`
